@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCB_Logo
+D PCB Logo
+K PCB Logo
+F ~
+$ENDCMP
+#
+#End Doc Library

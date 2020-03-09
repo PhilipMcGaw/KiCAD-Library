@@ -1,0 +1,18 @@
+Import Steps For KiCad 5 and Newer
+
+    In KiCad, go to Tools > Edit PCB Footprints.
+    Click on Preferences > Manage Footprint Libraries.
+
+For version 5.0
+
+In the Global Libraries tab, click on Browse Libraries and navigate to the downloaded .mod file. Then click OK.
+
+
+For version 5.1
+
+In the Global Libraries tab, click on Add existing library to table, the small folder icon, and navigate to the downloaded .mod file. Then click OK.
+
+    In the table, make sure that the Plugin Type is set to Legacy. Then click OK.
+    Click on Load footprint from library > Select by Browser.
+    Navigate to the footprint you imported and double-click to open it.
+

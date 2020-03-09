@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HC-SR04
+D HC-SR04 Sonar Module
+K HC-SR04 Sonar
+F ~
+$ENDCMP
+#
+#End Doc Library

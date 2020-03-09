@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TC2030-IDC
+#
+DEF TC2030-IDC TC 0 40 Y Y 1 L N
+F0 "TC" -150 230 50 H V L BNN
+F1 "TC2030-IDC" -150 -300 50 H V L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "Tag-Connect LLC" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "TC2030-IDC" 0 0 50 H I L BNN
+F7 "Cable Adapter 6 Pos" 0 0 50 H I L BNN
+F8 "Unavailable" 0 0 50 H I L BNN
+$FPLIST
+ TC2030-IDC
+ TC2030-IDC-NL
+$ENDFPLIST
+DRAW
+P 2 0 0 16 500 -200 -400 -200 N
+P 2 0 0 16 -400 200 -400 -200 N
+P 2 0 0 16 500 -200 500 200 N
+P 2 0 0 16 -400 200 500 200 N
+X VCC 1 600 -100 100 L 40 40 0 0 P 
+X NRESET 3 600 0 100 L 40 40 0 0 P 
+X GND 5 600 100 100 L 40 40 0 0 P 
+X SWDIO 2 -500 -100 100 R 40 40 0 0 P 
+X SWCLK 4 -500 0 100 R 40 40 0 0 P 
+X SWO 6 -500 100 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
