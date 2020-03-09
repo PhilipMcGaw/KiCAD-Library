@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HLSR
+D HLSR Current Transducer
+K HLSR Current Transducer
+F http://www.farnell.com/datasheets/2149989.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,70 @@
+(module Surface_Mount (layer F.Cu) (tedit 5E500885)
+  (fp_text reference REF** (at 0.01 -13.33) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Surface_Mount (at 0.03 -8.13) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -4.975001 -0.03) (end 4.944999 -0.03) (layer Dwgs.User) (width 0.2))
+  (fp_line (start 4.944999 -15.029999) (end -4.975001 -15.029999) (layer Dwgs.User) (width 0.2))
+  (fp_text user REF** (at 0.02 -9.48) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.697 -1.546) (end -0.824 -2.054) (layer F.SilkS) (width 0.381))
+  (fp_line (start 0.446 -3.832) (end -0.697 -1.546) (layer F.SilkS) (width 0.381))
+  (fp_line (start -0.951 -3.832) (end 0.446 -3.832) (layer F.SilkS) (width 0.381))
+  (fp_line (start 0.573 -6.118) (end -0.951 -3.832) (layer F.SilkS) (width 0.381))
+  (fp_line (start 0.827 -5.737) (end 0.7 -6.245) (layer F.SilkS) (width 0.381))
+  (fp_line (start 1.589 -6.245) (end 0.827 -5.737) (layer F.SilkS) (width 0.381))
+  (fp_line (start -0.189 -4.213) (end 1.589 -6.245) (layer F.SilkS) (width 0.381))
+  (fp_line (start 1.081 -4.213) (end -0.189 -4.213) (layer F.SilkS) (width 0.381))
+  (fp_line (start -0.697 -1.419) (end 1.081 -4.213) (layer F.SilkS) (width 0.381))
+  (fp_line (start -0.189 -1.673) (end -0.697 -1.419) (layer F.SilkS) (width 0.381))
+  (fp_line (start -0.951 -1.038) (end -0.189 -1.673) (layer F.SilkS) (width 0.381))
+  (fp_line (start -0.824 -2.054) (end -0.951 -1.038) (layer F.SilkS) (width 0.381))
+  (fp_line (start -0.57 -3.959) (end 0.7 -3.959) (layer F.SilkS) (width 0.381))
+  (fp_line (start 0.827 -5.864) (end -0.57 -3.959) (layer F.SilkS) (width 0.381))
+  (pad 5 smd custom (at -12.446 -10.414) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -2.719 -3.446) (xy 2.780999 -3.446) (xy 2.780999 3.554) (xy -2.719 3.554)) (width 0.1))
+    ))
+  (pad 6 smd custom (at 12.446 -10.668) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 2)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -2.811001 3.808) (xy 2.688998 3.808001) (xy 2.688999 -3.191999) (xy -2.811001 -3.192)) (width 0.1))
+    ))
+  (pad 1 smd custom (at -1.93 4.59) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.44 0.38) (xy 0.46 0.38) (xy 0.46 -4.62) (xy -0.44 -4.62)) (width 0.1))
+    ))
+  (pad 2 smd custom (at -0.66 4.55) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.440001 -2.38) (xy 0.46 -2.38) (xy 0.46 0.42) (xy -0.440001 0.42)) (width 0.1))
+    ))
+  (pad 3 smd custom (at 0.59 4.58) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.420002 0.39) (xy 0.479998 0.39) (xy 0.479998 -4.61) (xy -0.420002 -4.61)) (width 0.1))
+    ))
+  (pad 4 smd custom (at 1.88 4.6) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.459999 -2.430001) (xy -0.440002 -2.430001) (xy -0.440002 0.37) (xy 0.459999 0.37)) (width 0.1))
+    ))
+  (model "${KIPRJMOD}/Libraries/HLSR Current Transducer/HLSR_SM.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
